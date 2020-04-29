@@ -48,7 +48,7 @@ var app = {
                 // Save new registration ID
                 localStorage.setItem('registrationId', data.registrationId);
                 // Post registrationId to your app server as the value has changed
-                axios.post('api/user/reg', { registrationId: data.registrationId });
+                // axios.post('api/user/reg', { registrationId: data.registrationId });
             }
         });
 
